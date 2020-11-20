@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.8.24)  20 NOV 2020 22:10
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.8.24)  20 NOV 2020 23:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -541,8 +541,8 @@ FZKai-Z03}].
 (fontspec)             <->"FZKai-Z03/OT:script=hani;language=dflt;"
 (fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
 
-
-No file main.aux.
+ (./main.aux
+(./article.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
@@ -564,7 +564,7 @@ LaTeX Font Info:    ... okay on input line 22.
 LaTeX Font Info:    Checking defaults for LS1/stix/m/n on input line 22.
 LaTeX Font Info:    Trying to load font information for LS1+stix on input line 
 22.
-(d:/texlive/2020/texmf-dist/tex/latex/stix/ls1stix.fd
+ (d:/texlive/2020/texmf-dist/tex/latex/stix/ls1stix.fd
 File: ls1stix.fd 2015/04/17 v1.1.2-latex STIX LS1 font definitions
 )
 LaTeX Font Info:    ... okay on input line 22.
@@ -673,25 +673,51 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 \openout2 = `article.aux'.
 
 (./article.tex
+
+Package fontspec Info: Could not resolve font "FangSong/BI" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "FangSong/B" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "FangSong/I" (it probably
+(fontspec)             doesn't exist).
+
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 3
+.
+ (d:/texlive/2020/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+
+Package fontspec Info: Font family 'FangSong(0)' created for font 'FangSong'
+(fontspec)             with options [Script={CJK}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"FangSong/OT:script=hani;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
 LaTeX Font Info:    Trying to load font information for TS1+stix on input line 
-16.
- (d:/texlive/2020/texmf-dist/tex/latex/stix/ts1stix.fd
+21.
+
+(d:/texlive/2020/texmf-dist/tex/latex/stix/ts1stix.fd
 File: ts1stix.fd 2015/04/17 v1.1.2-latex STIX TS1 font definitions
-)) [1
+) [1
 
 
-]
-Overfull \vbox (103.29187pt too high) has occurred while \output is active []
-
-
-[2] (./main.aux (./article.aux)) ) 
+] [2]) [3] [4]
+(./main.aux (./article.aux)) ) 
 Here is how much of TeX's memory you used:
- 11709 strings out of 479418
- 273981 string characters out of 5888105
- 520489 words of memory out of 5000000
- 29091 multiletter control sequences out of 15000+600000
- 546733 words of font info for 54 fonts, out of 8000000 for 9000
+ 11781 strings out of 479418
+ 276210 string characters out of 5888105
+ 521745 words of memory out of 5000000
+ 29147 multiletter control sequences out of 15000+600000
+ 547084 words of font info for 59 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 56i,4n,68p,394b,298s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,4n,68p,394b,527s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (2 pages).
+Output written on main.pdf (4 pages).
