@@ -1,0 +1,25 @@
+\documentclass[punct=kaiming, a4paper]{ctexart}
+\usepackage[vmargin=1in, hmargin=1.25in]{geometry}
+\usepackage{graphicx,booktabs,amsmath,amssymb,multirow,stix}
+\setCJKmainfont[BoldFont={FZXiaoBiaoSong-B05},ItalicFont={FZKai-Z03}]{FZShuSong-Z01}
+\xeCJKsetwidth{。？！}{1em}
+\newcommand{\nwtitle}[1]
+{\begin{center}
+\Large \textbf
+{#1}
+\end{center}
+}
+\newcommand{\nwauthor}[1]
+{\begin{center}
+\textit
+{#1}
+\end{center}
+}
+\newcommand{\nwsec}[2]
+{
+\section*{{#1}\hspace{1em}{#2}}
+}
+\begin{document}
+\pagestyle{plain}
+\include{article}
+\end{document}
