@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.8.24)  25 NOV 2020 23:07
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.8.24)  25 NOV 2020 23:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -710,7 +710,7 @@ File: ts1stix.fd 2015/04/17 v1.1.2-latex STIX TS1 font definitions
 
 
 ] [2] [3] [4] [5]
-[6]) [7] [8] (./main.aux (./article.aux)) ) 
+[6] [7]) [8] (./main.aux (./article.aux)) ) 
 Here is how much of TeX's memory you used:
  11850 strings out of 479418
  281290 string characters out of 5888105
